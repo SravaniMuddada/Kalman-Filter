@@ -81,3 +81,9 @@ Where H_k = [1, 0] and v_k​ is the measurement noise.
 Similar to Example 1 but includes a third state, typically representing acceleration.
 ### Example 3: Three-Dimensional Tracking
 Tracks an object in 3D space with state vector:X_k = [x, y, z, v_x, v_y, v_z]^T
+## Usage
+1. Define initial states, noise covariances, and time steps.
+2. Implement the dynamic and measurement models.
+3. Simulate the process and noisy measurements.
+4. Apply the Kalman filter equations iteratively to estimate the states.
+5. Compare the estimated states with true values to evaluate performance.
