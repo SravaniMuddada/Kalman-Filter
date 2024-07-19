@@ -75,6 +75,9 @@ The position is measured with noise:
 ```math
 z_k=H_k x_k+v_k
 z_k = H_k x_k + v_k
+```
 Where H_k = [1, 0] and v_k​ is the measurement noise.
 ### Example 2: Three-State Filter
 Similar to Example 1 but includes a third state, typically representing acceleration.
+### Example 3: Three-Dimensional Tracking
+Tracks an object in 3D space with state vector:X_k = [x, y, z, v_x, v_y, v_z]^T
