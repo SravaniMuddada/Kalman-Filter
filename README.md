@@ -68,3 +68,13 @@ The state of the vehicle is defined by position \( x \) and velocity \( v \). Th
 ```math
 x_{k+1} = x_k + v_k T + \frac{1}{2} a_k T^2
 v_{k+1} = v_k + a_k T
+```
+Where a_k​ is the acceleration, a random variable.
+####  Measurement Model
+The position is measured with noise:
+```math
+z_k=H_k x_k+v_k
+z_k = H_k x_k + v_k
+Where H_k = [1, 0] and v_k​ is the measurement noise.
+### Example 2: Three-State Filter
+Similar to Example 1 but includes a third state, typically representing acceleration.
