@@ -87,3 +87,6 @@ Tracks an object in 3D space with state vector:X_k = [x, y, z, v_x, v_y, v_z]^T
 3. Simulate the process and noisy measurements.
 4. Apply the Kalman filter equations iteratively to estimate the states.
 5. Compare the estimated states with true values to evaluate performance.
+## References
+1. Kalman, R.E. "A New Approach to Linear Filtering and Prediction Problems," Journal of Basic Engineering, 1960.
+2. MATLAB documentation and resources.
