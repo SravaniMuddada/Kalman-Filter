@@ -23,10 +23,12 @@ The Kalman filter uses a series of mathematical equations to estimate the state 
 
 ### Kalman Filter Equations
 1. **State Prediction:**
-    ```math
+   \[
     \hat{x}_{k|k-1} = A_k \hat{x}_{k-1|k-1} + B_k u_k
+    \]
+    \[
     P_{k|k-1} = A_k P_{k-1|k-1} A_k^T + Q_k
-    ```
+    \]
 
 2. **Measurement Update:**
     ```math
